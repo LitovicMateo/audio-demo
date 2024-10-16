@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-block: 1em;
+}
+
+.stop {
+    height: 15px;
+    aspect-ratio: 1/1;
+    background: black;
+}
+
+.play {
+    height: 20px;
+    aspect-ratio: 1/1;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid black;
+}
+
+.button {
+    height: 40px;
+    width: fit-content;
+}

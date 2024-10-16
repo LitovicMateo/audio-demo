@@ -1,0 +1,16 @@
+.bar {
+    width: 500px;
+    max-width: 90%;
+    position: absolute;
+    height: 10px;
+    left: 50%;
+    translate: -50%;
+    border: 2px solid darkslategray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: lime;
+    height: 100%;
+}
